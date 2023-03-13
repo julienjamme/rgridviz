@@ -4,9 +4,30 @@
   </head>
   <body>
     <p id="content">Trying JavaScript!</p>
+    <p id="content2">Trying JavaScript!</p>
+    <p id="content3" class="stuff">Trying JavaScript!</p>
   </body>
   <script>
     // place your JavaScript code here
     console.log('Hello JavaScript!')
+  </script>
+  <script>
+    var cnt = document.getElementById("content");
+    cnt.innerText = "The text has changed";
+  </script>
+  <script>
+    var x = 3;
+    var cnt2 = document.getElementById("content2");
+    cnt2.innerText = x;
+  </script>
+  <script>
+    // select by id
+    var x = document.getElementById("content3");
+    var y = document.querySelector("#content3");
+
+    console.log(x == y); // true
+
+    // select by class
+    var z = document.querySelector(".stuff");
   </script>
 </html>

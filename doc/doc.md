@@ -11,6 +11,7 @@ R Packages:
 - reactR: emulates very well htmlwidgets but specifically for the React framework
 - reactable: uses reactR to enable building interactive tables solely from R code 
 - r2d3: to work with d3.js
+- crosstalk: lets several widgets communicate with each other.
 
 Dev:
 
